@@ -8,10 +8,12 @@
 ## Tabla de contenido 
 
 -	[Instalacion](#instalacion)
--	[Estado de las funciones](#estado-de-las-funciones)
+-	[Hoja de ruta](#hoja-de-ruta)
+-	[Ejemplo de codigo](#ejemplo-de-codigo)
 -	[Arquitectura](#arquitectura)
 -	[Contribucion](#contribucion)
 -	[Licencia](#licencia) 
+-	[Autor](#autor) 
 
 ## Instalacion
 
@@ -27,7 +29,7 @@ git clone https://github.com/TU-USUARIO/portfolio cd portfolio
 - [ ] Creación de Base de Datos
 
 
-## Ejemplos de codigo Estructura del formulario:
+## Ejemplo de codigo:
 
 ```html
 <!-- TECH STACK -->
@@ -61,6 +63,7 @@ git clone https://github.com/TU-USUARIO/portfolio cd portfolio
 
 
 ```
+## Arquitectura
 
 ## Contribucion
 
