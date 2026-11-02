@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=DM+Sans:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav>
+    <div class="wrap">
+      <a class="logo" href="#sobre-mi">Diana</a>
+      <ul>
+        <li><a href="#sobre-mi">Sobre mí</a></li>
+        <li><a href="#tech-stack">Tech stack</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main>
+    <!-- SOBRE MÍ -->
+    <section id="sobre-mi">
+      <div class="wrap about">
+        <div>
+          <h1>Hola, soy <mark>Tu Diana Cordova</mark>, desarrollador web.</h1>
+          <p>Construyo sitios rápidos, claros y fáciles de usar. Me gusta convertir ideas en páginas que funcionan bien en cualquier pantalla.</p>
+          <p>Ahora mismo estoy aprendiendo y creando proyectos propios para mejorar cada día.</p>
+        </div>
+        <div class="avatar" aria-hidden="true">TN</div>
+      </div>
+    </section>
+
+    <!-- TECH STACK -->
+    <section id="tech-stack">
+      <div class="wrap">
+        <h2>Tech stack</h2>
+        <div class="stack">
+          <article class="tech html">
+            <div class="badge">H5</div>
+            <h3>HTML5</h3>
+            <p>Estructura semántica, formularios y buena accesibilidad.</p>
+          </article>
+          <article class="tech css">
+            <div class="badge">C3</div>
+            <h3>CSS3</h3>
+            <p>Flexbox, Grid, variables y diseño responsive.</p>
+          </article>
+          <article class="tech js">
+            <div class="badge">JS</div>
+            <h3>JavaScript</h3>
+            <p>Interacción en el navegador y manejo del DOM.</p>
+          </article>
+          <article class="tech git">
+            <div class="badge">Git</div>
+            <h3>Git y GitHub</h3>
+            <p>Control de versiones y trabajo en equipo.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+   
+    <!-- CONTACTO -->
+    <section id="contacto">
+      <div class="wrap contact">
+        <div>
+          <h2>Contacto</h2>
+          <p>¿Tienes una idea o una oferta de trabajo? Escríbeme y te respondo pronto.</p>
+          <ul>
+            <li><a href="mailto:Ldianacordova@gmail.com">Ldianacordova@gmail.com</a></li>
+            <li><a href="https://github.com/leydecordova">github.com/leydecordova</a></li>
+            <li><a href="https://linkedin.com/in/leydecordova">linkedin.com/in/leydecordova</a></li>
+          </ul>
+        </div>
+        <form action="#" method="post">
+          <label>Nombre
+            <input type="text" name="nombre" required>
+          </label>
+          <label>Correo
+            <input type="email" name="correo" required>
+          </label>
+          <label>Mensaje
+            <textarea name="mensaje" required></textarea>
+          </label>
+          <button class="btn" type="submit">Enviar mensaje</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">© Diana Cordova</div>
+  </footer>
+
+</body>
+</html>
