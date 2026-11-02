@@ -64,6 +64,15 @@ git clone https://github.com/TU-USUARIO/portfolio cd portfolio
 
 ```
 ## Arquitectura
+```mermaid
+graph TD
+
+    A[User] --> B[Main]
+    B --> C[About me]
+    B --> D[Tech Stack]
+    B --> E[Contact]
+  
+```
 
 ## Contribucion
 
